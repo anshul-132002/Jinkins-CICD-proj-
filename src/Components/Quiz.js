@@ -4,7 +4,7 @@ import QuestionList from "./QuestionList.js";
 function Quiz() {
   const questions = [
     {
-      Question: "What is the capital of France?",
+      Question: "What is the capital of France ?",
       options: ["Berlin", "Madrid", "Paris", "Lisbon"],
       correctAnswer: "Paris",
     },
@@ -65,7 +65,7 @@ function Quiz() {
 
         <button disabled={currentAns == null} className={currentAns == null ? 'button-disabled' : 'button' } onClick={handleInc}>Next Question</button>
       </div> : <h1>
-        Your Score is :  {score} 
+        Your Score is ::  {score} 
         </h1>}
    
     </div>
